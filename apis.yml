@@ -1,0 +1,63 @@
+aid: adobe-experience-manager
+name: Adobe Experience Manager
+description: >-
+  Adobe Experience Manager (AEM) is an enterprise content management solution
+  for building websites, mobile apps, and forms, combining a digital asset
+  management system, content fragment authoring, and adaptive forms in a
+  single platform delivered as a cloud service. AEM provides REST APIs,
+  GraphQL endpoints, and Java/JavaScript SDKs for content delivery, authoring,
+  asset management, and infrastructure operations. Authentication for AEM as
+  a Cloud Service uses Adobe IMS OAuth 2.0 service tokens.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Content Management
+  - Enterprise CMS
+  - Digital Asset Management
+  - Headless CMS
+  - Content Fragments
+  - Adaptive Forms
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: adobe-experience-manager:apis
+    name: Adobe Experience Manager APIs
+    description: >-
+      Collection of REST and GraphQL APIs for AEM as a Cloud Service covering
+      Content Fragment delivery and management, Sites authoring, Dynamic Media
+      asset delivery, Forms, and infrastructure. Authentication uses Adobe IMS
+      OAuth service tokens.
+    humanURL: https://developer.adobe.com/experience-cloud/experience-manager-apis/
+    baseURL: https://author-<tenant>.adobeaemcloud.com
+    tags:
+      - Content Fragments
+      - Sites
+      - Assets
+      - Dynamic Media
+      - Forms
+      - GraphQL
+    properties:
+      - type: Documentation
+        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/
+      - type: Content Fragments Delivery
+        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentfragments/delivery/
+      - type: Assets Delivery
+        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/delivery/
+      - type: Sites API
+        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/
+
+common:
+  - type: Website
+    url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+  - type: Documentation
+    url: https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html
+  - type: Pricing
+    url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+  - type: Sign Up
+    url: https://business.adobe.com/request-consultation/experience-cloud.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
