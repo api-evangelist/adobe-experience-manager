@@ -11,57 +11,59 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Content Management
-  - Enterprise CMS
-  - Digital Asset Management
-  - Headless CMS
-  - Content Fragments
-  - Adaptive Forms
+- Content Management
+- Enterprise CMS
+- Digital Asset Management
+- Headless CMS
+- Content Fragments
+- Adaptive Forms
 url: >-
   https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/apis.yml
 created: '2026-05-11'
 modified: '2026-05-11'
 specificationVersion: '0.19'
 apis:
-  - aid: adobe-experience-manager:apis
-    name: Adobe Experience Manager APIs
-    description: >-
-      Collection of REST and GraphQL APIs for AEM as a Cloud Service covering
-      Content Fragment delivery and management, Sites authoring, Dynamic Media
-      asset delivery, Forms, and infrastructure. Authentication uses Adobe IMS
-      OAuth service tokens.
-    humanURL: https://developer.adobe.com/experience-cloud/experience-manager-apis/
-    baseURL: https://author-<tenant>.adobeaemcloud.com
-    tags:
-      - Content Fragments
-      - Sites
-      - Assets
-      - Dynamic Media
-      - Forms
-      - GraphQL
-    properties:
-      - type: Documentation
-        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/
-      - type: Content Fragments Delivery
-        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentfragments/delivery/
-      - type: Assets Delivery
-        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/delivery/
-      - type: Sites API
-        url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/
-
-common:
-  - type: GitHubOrganization
-    url: https://github.com/aemsites
-  - type: LinkedIn
-    url: https://www.linkedin.com/showcase/adobe-experience-manager
-  - type: Website
-    url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+- aid: adobe-experience-manager:apis
+  name: Adobe Experience Manager APIs
+  description: >-
+    Collection of REST and GraphQL APIs for AEM as a Cloud Service covering
+    Content Fragment delivery and management, Sites authoring, Dynamic Media
+    asset delivery, Forms, and infrastructure. Authentication uses Adobe IMS
+    OAuth service tokens.
+  humanURL: https://developer.adobe.com/experience-cloud/experience-manager-apis/
+  baseURL: https://author-<tenant>.adobeaemcloud.com
+  tags:
+  - Content Fragments
+  - Sites
+  - Assets
+  - Dynamic Media
+  - Forms
+  - GraphQL
+  properties:
   - type: Documentation
-    url: https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html
-  - type: Pricing
-    url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
-  - type: SignUp
-    url: https://business.adobe.com/request-consultation/experience-cloud.html
+    url: https://developer.adobe.com/experience-cloud/experience-manager-apis/
+  - type: Content Fragments Delivery
+    url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentfragments/delivery/
+  - type: Assets Delivery
+    url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/delivery/
+  - type: Sites API
+    url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/
+
+  - url: graphql/adobe-experience-manager-graphql.md
+    type: GraphQL
+common:
+- type: GitHubOrganization
+  url: https://github.com/aemsites
+- type: LinkedIn
+  url: https://www.linkedin.com/showcase/adobe-experience-manager
+- type: Website
+  url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+- type: Documentation
+  url: https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html
+- type: Pricing
+  url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
+- type: SignUp
+  url: https://business.adobe.com/request-consultation/experience-cloud.html
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
