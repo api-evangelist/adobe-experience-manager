@@ -1,0 +1,249 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Adobe Experience Manager APIs",
+    "version": "1.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Launches",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List launches for content fragments",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://{author-instance}.adobeaemcloud.com/"
+          },
+          "docs": "List launches for content fragments"
+        },
+        {
+          "info": {
+            "name": "Create a new launch",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://{author-instance}.adobeaemcloud.com/"
+          },
+          "docs": "Create a new launch"
+        },
+        {
+          "info": {
+            "name": "Retrieve a launch by id",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Retrieve a launch by id"
+        },
+        {
+          "info": {
+            "name": "Update a launch",
+            "type": "http"
+          },
+          "http": {
+            "method": "PUT",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Update a launch"
+        },
+        {
+          "info": {
+            "name": "Delete a launch",
+            "type": "http"
+          },
+          "http": {
+            "method": "DELETE",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Delete a launch"
+        },
+        {
+          "info": {
+            "name": "List sources attached to a launch",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId/sources",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "List sources attached to a launch"
+        },
+        {
+          "info": {
+            "name": "Add a source to a launch",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId/sources",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Add a source to a launch"
+        },
+        {
+          "info": {
+            "name": "Rebase a launch onto current production content",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId/rebase",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Rebase a launch onto current production content"
+        },
+        {
+          "info": {
+            "name": "Promote a launch (publish its content)",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId/promote",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Promote a launch (publish its content)"
+        },
+        {
+          "info": {
+            "name": "Compute diff between a launch and its source",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId/diff",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Compute diff between a launch and its source"
+        },
+        {
+          "info": {
+            "name": "Retrieve content contained in a launch",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://{author-instance}.adobeaemcloud.com/:launchId/content",
+            "params": [
+              {
+                "name": "launchId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Retrieve content contained in a launch"
+        },
+        {
+          "info": {
+            "name": "List asynchronous launch jobs",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://{author-instance}.adobeaemcloud.com/jobs"
+          },
+          "docs": "List asynchronous launch jobs"
+        },
+        {
+          "info": {
+            "name": "Get status of an asynchronous launch job",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://{author-instance}.adobeaemcloud.com/jobs/:jobId/status",
+            "params": [
+              {
+                "name": "jobId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get status of an asynchronous launch job"
+        },
+        {
+          "info": {
+            "name": "Get the result of an asynchronous launch job",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://{author-instance}.adobeaemcloud.com/jobs/:jobId/result",
+            "params": [
+              {
+                "name": "jobId",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "Get the result of an asynchronous launch job"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
