@@ -9,7 +9,7 @@ description: >-
   asset management, and infrastructure operations. Authentication for AEM as
   a Cloud Service uses Adobe IMS OAuth 2.0 service tokens.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Content Management
 - Enterprise CMS
