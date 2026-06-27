@@ -62,7 +62,7 @@ common:
   url: https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html
 - type: Pricing
   url: https://business.adobe.com/products/experience-manager/adobe-experience-manager.html
-- type: SignUp
+- type: Signup
   url: https://business.adobe.com/request-consultation/experience-cloud.html
 maintainers:
 - FN: Kin Lane
