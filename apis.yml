@@ -52,6 +52,12 @@ apis:
   - url: graphql/adobe-experience-manager-graphql.md
     type: GraphQL
 common:
+- type: VulnerabilityDisclosure
+  url: security/adobe-experience-manager-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/adobe-experience-manager-domain-security.yml
+- type: Authentication
+  url: authentication/adobe-experience-manager-authentication.yml
 - type: OAuthScopes
   url: scopes/adobe-experience-manager-scopes.yml
 - type: GitHubOrganization
