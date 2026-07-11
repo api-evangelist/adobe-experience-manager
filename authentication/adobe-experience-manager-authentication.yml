@@ -1,0 +1,19 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/adobe-experience-manager-openapi.yml
+summary:
+  types:
+  - oauth2
+  oauth2_flows:
+  - clientCredentials
+schemes:
+- name: adobeIMS
+  type: oauth2
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3
+    scopes: 0
+  description: Adobe IMS OAuth 2.0 with Server-to-Server credentials issued from the Adobe Developer
+    Console for an AEM as a Cloud Service project.
+  sources:
+  - openapi/adobe-experience-manager-openapi.yml
