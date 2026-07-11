@@ -1,0 +1,46 @@
+generated: '2026-07-11'
+method: searched
+docs: https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication
+source: openapi/adobe-experience-manager-openapi.yml
+schemes:
+- name: adobeIMS
+  source: openapi/adobe-experience-manager-openapi.yml
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3
+  description: Adobe IMS OAuth 2.0 with Server-to-Server credentials issued from the Adobe Developer
+    Console for an AEM as a Cloud Service project.
+note: AEM as a Cloud Service uses Adobe IMS OAuth Server-to-Server (client_credentials) tokens;
+  Adobe documents a fixed set of IMS scopes for AEM API access rather than granular per-endpoint
+  scopes, with the scopes available to a credential shown in the Adobe Developer Console project.
+scopes:
+- scope: openid
+  description: Standard OpenID Connect scope required by Adobe IMS when requesting an access
+    token for AEM as a Cloud Service APIs.
+  sources:
+  - https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication
+- scope: AdobeID
+  description: Adobe IMS identity scope required for authenticating a Developer Console credential
+    against AEM as a Cloud Service APIs.
+  sources:
+  - https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication
+- scope: read_organizations
+  description: Allows the credential to read the Adobe organization information associated with
+    the Developer Console project.
+  sources:
+  - https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication
+- scope: additional_info.projectedProductContext
+  description: Includes the projected product context in the IMS access token, used by AEM as
+    a Cloud Service to authorize API calls.
+  sources:
+  - https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication
+- scope: read_pc.dma_aem_cloud
+  description: Grants read access to the AEM as a Cloud Service (dma_aem_cloud) product context
+    for the authenticated credential.
+  sources:
+  - https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication
+- scope: aem.document
+  description: Scope required for invoking the AEM Forms Communications (document generation)
+    APIs on AEM as a Cloud Service.
+  sources:
+  - https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication

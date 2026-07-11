@@ -52,6 +52,8 @@ apis:
   - url: graphql/adobe-experience-manager-graphql.md
     type: GraphQL
 common:
+- type: OAuthScopes
+  url: scopes/adobe-experience-manager-scopes.yml
 - type: GitHubOrganization
   url: https://github.com/aemsites
 - type: LinkedIn
