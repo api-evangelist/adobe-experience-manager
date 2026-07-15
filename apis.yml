@@ -52,6 +52,8 @@ apis:
   - url: graphql/adobe-experience-manager-graphql.md
     type: GraphQL
 common:
+- type: AgenticAccess
+  url: agentic-access/adobe-experience-manager-agentic-access.yml
 - type: VulnerabilityDisclosure
   url: security/adobe-experience-manager-vulnerability-disclosure.yml
 - type: DomainSecurity
