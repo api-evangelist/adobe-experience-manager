@@ -9,7 +9,19 @@ description: >-
   asset management, and infrastructure operations. Authentication for AEM as
   a Cloud Service uses Adobe IMS OAuth 2.0 service tokens.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adobe-experience-manager.png
 tags:
 - Content Management
 - Enterprise CMS
@@ -26,10 +38,9 @@ apis:
 - aid: adobe-experience-manager:apis
   name: Adobe Experience Manager APIs
   description: >-
-    Collection of REST and GraphQL APIs for AEM as a Cloud Service covering
-    Content Fragment delivery and management, Sites authoring, Dynamic Media
-    asset delivery, Forms, and infrastructure. Authentication uses Adobe IMS
-    OAuth service tokens.
+    Collection of REST and GraphQL APIs for AEM as a Cloud Service covering Content Fragment delivery
+    and management, Sites authoring, Dynamic Media asset delivery, Forms, and infrastructure. Authentication
+    uses Adobe IMS OAuth service tokens.
   humanURL: https://developer.adobe.com/experience-cloud/experience-manager-apis/
   baseURL: https://author-<tenant>.adobeaemcloud.com
   tags:
@@ -43,14 +54,25 @@ apis:
   - type: Documentation
     url: https://developer.adobe.com/experience-cloud/experience-manager-apis/
   - type: Content Fragments Delivery
-    url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentfragments/delivery/
+    url: >-
+      https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentfragments/delivery/
   - type: Assets Delivery
-    url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/delivery/
+    url: >-
+      https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/delivery/
   - type: Sites API
     url: https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/
-
   - url: graphql/adobe-experience-manager-graphql.md
     type: GraphQL
+- aid: adobe-experience-manager:adobe-experience-manager-launches-api
+  name: Adobe Experience Manager Launches API
+  description: AEM Launches for Content Fragments (experimental)
+  humanURL: https://developer.adobe.com/experience-cloud/experience-manager-apis/
+  baseURL: https://author-<tenant>.adobeaemcloud.com
+  tags:
+  - Launches
+  properties:
+  - type: OpenAPI
+    url: openapi/adobe-experience-manager-launches-api-openapi.yml
 common:
 - type: AgenticAccess
   url: agentic-access/adobe-experience-manager-agentic-access.yml
