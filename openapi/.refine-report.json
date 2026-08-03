@@ -1,0 +1,14 @@
+{
+  "provider": "adobe-experience-manager",
+  "sources": [
+    "adobe-experience-manager-launches-api-openapi.yml"
+  ],
+  "outputs": [
+    "adobe-experience-manager-launches-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

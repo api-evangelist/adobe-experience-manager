@@ -1,0 +1,181 @@
+openapi: 3.1.0
+info:
+  title: Adobe Experience Manager APIs
+  version: '1.0'
+  description: >-
+    Adobe Experience Manager (AEM) as a Cloud Service exposes REST APIs and
+    GraphQL endpoints for content delivery, authoring, asset management, and
+    infrastructure operations. The OpenAPI-based APIs include Content Fragment
+    delivery and management, Sites and Launches authoring, Assets author and
+    delivery, Folders, Forms, and Translation. Authentication uses Adobe IMS
+    OAuth 2.0 service tokens (Server-to-Server credentials). The concrete
+    paths below are drawn from the AEM Launches for Content Fragments
+    experimental OpenAPI; other AEM APIs follow their own base paths under
+    /adobe/sites, /adobe/assets, /adobe/forms, /adobe/translation, etc.
+  contact:
+    name: Adobe Developer
+    url: https://developer.adobe.com/experience-cloud/experience-manager-apis/
+servers:
+  - url: https://{author-instance}.adobeaemcloud.com
+    description: AEM as a Cloud Service author tier (host varies per program/environment)
+    variables:
+      author-instance:
+        default: author-p00000-e000000
+        description: Customer-specific AEM author host
+tags:
+  - name: Launches
+    description: AEM Launches for Content Fragments (experimental)
+  - name: Sites
+    description: AEM Sites authoring API
+  - name: Assets
+    description: AEM Assets author and delivery APIs
+  - name: Content Fragments
+    description: Content Fragment delivery and management APIs
+  - name: Forms
+    description: Adaptive Forms API
+  - name: Translation
+    description: Translation API
+paths:
+  /:
+    get:
+      tags:
+        - Launches
+      summary: List launches for content fragments
+    post:
+      tags:
+        - Launches
+      summary: Create a new launch
+  /{launchId}:
+    get:
+      tags:
+        - Launches
+      summary: Retrieve a launch by id
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+    put:
+      tags:
+        - Launches
+      summary: Update a launch
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+    delete:
+      tags:
+        - Launches
+      summary: Delete a launch
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+  /{launchId}/sources:
+    get:
+      tags:
+        - Launches
+      summary: List sources attached to a launch
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+    post:
+      tags:
+        - Launches
+      summary: Add a source to a launch
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+  /{launchId}/rebase:
+    post:
+      tags:
+        - Launches
+      summary: Rebase a launch onto current production content
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+  /{launchId}/promote:
+    post:
+      tags:
+        - Launches
+      summary: Promote a launch (publish its content)
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+  /{launchId}/diff:
+    post:
+      tags:
+        - Launches
+      summary: Compute diff between a launch and its source
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+  /{launchId}/content:
+    get:
+      tags:
+        - Launches
+      summary: Retrieve content contained in a launch
+      parameters:
+        - name: launchId
+          in: path
+          required: true
+          schema:
+            type: string
+  /jobs:
+    get:
+      tags:
+        - Launches
+      summary: List asynchronous launch jobs
+  /jobs/{jobId}/status:
+    get:
+      tags:
+        - Launches
+      summary: Get status of an asynchronous launch job
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          schema:
+            type: string
+  /jobs/{jobId}/result:
+    get:
+      tags:
+        - Launches
+      summary: Get the result of an asynchronous launch job
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          schema:
+            type: string
+components:
+  securitySchemes:
+    adobeIMS:
+      type: oauth2
+      description: >-
+        Adobe IMS OAuth 2.0 with Server-to-Server credentials issued from the
+        Adobe Developer Console for an AEM as a Cloud Service project.
+      flows:
+        clientCredentials:
+          tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3
+          scopes: {}
