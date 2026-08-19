@@ -1,0 +1,576 @@
+{
+  "item": [
+    {
+      "id": "1c07a035-a420-4d99-9ad1-90f9dd6f900c",
+      "name": "Launches",
+      "description": {
+        "content": "AEM Launches for Content Fragments (experimental)",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "50b38067-8544-45cf-8172-03da0e911bc9",
+          "name": "List launches for content fragments",
+          "request": {
+            "name": "List launches for content fragments",
+            "description": {},
+            "url": {
+              "path": [
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "88389445-395a-4911-81a7-3a79b0ad0504",
+          "name": "Create a new launch",
+          "request": {
+            "name": "Create a new launch",
+            "description": {},
+            "url": {
+              "path": [
+                ""
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "0b5bcbfd-9e84-4064-9d1a-92b384fb5f93",
+          "name": "Retrieve a launch by id",
+          "request": {
+            "name": "Retrieve a launch by id",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "85757202-94e4-4d76-84ec-ec85a2bd2958",
+          "name": "Update a launch",
+          "request": {
+            "name": "Update a launch",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "PUT",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "bfe48318-1cf9-41f9-a31e-077efc4270b0",
+          "name": "Delete a launch",
+          "request": {
+            "name": "Delete a launch",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "f7608833-1874-4342-8a13-4022618b5571",
+          "name": "List sources attached to a launch",
+          "request": {
+            "name": "List sources attached to a launch",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId",
+                "sources"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "59ad6855-fbbf-426f-a221-7cca48a3f418",
+          "name": "Add a source to a launch",
+          "request": {
+            "name": "Add a source to a launch",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId",
+                "sources"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "43c30bb8-fdb7-480a-aebc-077b9c3b1c56",
+          "name": "Rebase a launch onto current production content",
+          "request": {
+            "name": "Rebase a launch onto current production content",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId",
+                "rebase"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "3f03112f-ba89-400e-a60f-0e9b00738cbf",
+          "name": "Promote a launch (publish its content)",
+          "request": {
+            "name": "Promote a launch (publish its content)",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId",
+                "promote"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "4718efcc-3611-4e24-a6f0-ffef14d257e3",
+          "name": "Compute diff between a launch and its source",
+          "request": {
+            "name": "Compute diff between a launch and its source",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId",
+                "diff"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "0eb94b58-1b34-40d8-9217-fe8b5990a6d5",
+          "name": "Retrieve content contained in a launch",
+          "request": {
+            "name": "Retrieve content contained in a launch",
+            "description": {},
+            "url": {
+              "path": [
+                ":launchId",
+                "content"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "launchId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "e9e97828-b992-4ab3-a2d8-6ff3a44c2052",
+          "name": "List asynchronous launch jobs",
+          "request": {
+            "name": "List asynchronous launch jobs",
+            "description": {},
+            "url": {
+              "path": [
+                "jobs"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "da9dad1a-8202-4606-85fa-23d7602d1b37",
+          "name": "Get status of an asynchronous launch job",
+          "request": {
+            "name": "Get status of an asynchronous launch job",
+            "description": {},
+            "url": {
+              "path": [
+                "jobs",
+                ":jobId",
+                "status"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "jobId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "cb0f50b1-1b0e-46fc-ae6b-a6032acb5250",
+          "name": "Get the result of an asynchronous launch job",
+          "request": {
+            "name": "Get the result of an asynchronous launch job",
+            "description": {},
+            "url": {
+              "path": [
+                "jobs",
+                ":jobId",
+                "result"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "jobId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "Customer-specific AEM author host",
+                  "type": "any",
+                  "value": "{{author-instance}}",
+                  "key": "author-instance"
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "Customer-specific AEM author host",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "author-p00000-e000000",
+      "key": "author-instance"
+    },
+    {
+      "type": "string",
+      "value": "https://{{author-instance}}.adobeaemcloud.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "31f697b4-0e4a-4bf5-9566-a1779cd5c6b3",
+    "name": "Adobe Experience Manager APIs Launches API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Adobe Experience Manager (AEM) as a Cloud Service exposes REST APIs and GraphQL endpoints for content delivery, authoring, asset management, and infrastructure operations. The OpenAPI-based APIs include Content Fragment delivery and management, Sites and Launches authoring, Assets author and delivery, Folders, Forms, and Translation. Authentication uses Adobe IMS OAuth 2.0 service tokens (Server-to-Server credentials). The concrete paths below are drawn from the AEM Launches for Content Fragments experimental OpenAPI; other AEM APIs follow their own base paths under /adobe/sites, /adobe/assets, /adobe/forms, /adobe/translation, etc.\n\nContact Support:\n Name: Adobe Developer",
+      "type": "text/plain"
+    }
+  }
+}
