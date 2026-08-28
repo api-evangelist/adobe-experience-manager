@@ -9,6 +9,18 @@ description: >-
   asset management, and infrastructure operations. Authentication for AEM as
   a Cloud Service uses Adobe IMS OAuth 2.0 service tokens.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
