@@ -1,8 +1,8 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Adobe Experience Manager APIs Launches API
+  title: Adobe Experience Manager Launches API
   version: '1.0'
-  description: Adobe Experience Manager (AEM) as a Cloud Service exposes REST APIs and GraphQL endpoints for content delivery, authoring, asset management, and infrastructure operations. The OpenAPI-based APIs include Content Fragment delivery and management, Sites and Launches authoring, Assets author and delivery, Folders, Forms, and Translation. Authentication uses Adobe IMS OAuth 2.0 service tokens (Server-to-Server credentials). The concrete paths below are drawn from the AEM Launches for Content Fragments experimental OpenAPI; other AEM APIs follow their own base paths under /adobe/sites, /adobe/assets, /adobe/forms, /adobe/translation, etc.
+  description: Adobe Experience Manager (AEM) as a Cloud Service exposes REST APIs and GraphQL endpoints for content delivery, authoring, asset management, and infrastructure operations.
   contact:
     name: Adobe Developer
     url: https://developer.adobe.com/experience-cloud/experience-manager-apis/
@@ -22,10 +22,14 @@ paths:
       tags:
       - Launches
       summary: List launches for content fragments
+      operationId: getRoot
+      x-operation-id-source: derived
     post:
       tags:
       - Launches
       summary: Create a new launch
+      operationId: postRoot
+      x-operation-id-source: derived
   /{launchId}:
     get:
       tags:
@@ -37,6 +41,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: getByLaunchId
+      x-operation-id-source: derived
     put:
       tags:
       - Launches
@@ -47,6 +53,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: putByLaunchId
+      x-operation-id-source: derived
     delete:
       tags:
       - Launches
@@ -57,6 +65,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: deleteByLaunchId
+      x-operation-id-source: derived
   /{launchId}/sources:
     get:
       tags:
@@ -68,6 +78,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: getByLaunchIdSources
+      x-operation-id-source: derived
     post:
       tags:
       - Launches
@@ -78,6 +90,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: postByLaunchIdSources
+      x-operation-id-source: derived
   /{launchId}/rebase:
     post:
       tags:
@@ -89,6 +103,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: postByLaunchIdRebase
+      x-operation-id-source: derived
   /{launchId}/promote:
     post:
       tags:
@@ -100,6 +116,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: postByLaunchIdPromote
+      x-operation-id-source: derived
   /{launchId}/diff:
     post:
       tags:
@@ -111,6 +129,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: postByLaunchIdDiff
+      x-operation-id-source: derived
   /{launchId}/content:
     get:
       tags:
@@ -122,11 +142,15 @@ paths:
         required: true
         schema:
           type: string
+      operationId: getByLaunchIdContent
+      x-operation-id-source: derived
   /jobs:
     get:
       tags:
       - Launches
       summary: List asynchronous launch jobs
+      operationId: getJobs
+      x-operation-id-source: derived
   /jobs/{jobId}/status:
     get:
       tags:
@@ -138,6 +162,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: getJobsByJobIdStatus
+      x-operation-id-source: derived
   /jobs/{jobId}/result:
     get:
       tags:
@@ -149,6 +175,8 @@ paths:
         required: true
         schema:
           type: string
+      operationId: getJobsByJobIdResult
+      x-operation-id-source: derived
 components:
   securitySchemes:
     adobeIMS:
