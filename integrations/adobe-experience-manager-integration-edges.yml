@@ -31,6 +31,24 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-agent-skills.py
   first_seen: '2026-10-20'
+- partner_name: Netlify (own)
+  partner: netlify
+  partner_match: mirror
+  mirror_match: domain+name-among-holders
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.netlify.com/integrations/adobeexperiencemanager/
+  mirror_of: netlify/integrations/netlify-integration-edges.yml
+  apps:
+  - Adobe Experience Manager
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: CMS
+  partner_tier: listing
 generated: '2026-10-20'
 method: searched
 source:
@@ -42,3 +60,4 @@ checked:
 - https://officialskills.sh/sitemap.xml
 - https://skillsmp.com/sitemap.xml
 - https://www.skills.sh/sitemap.xml
+- netlify/integrations/netlify-integration-edges.yml

@@ -26,3 +26,16 @@
     detected: '2026-10-20'
   status: not-a-workflow
   arazzo: null
+- slug: adobe-experience-manager-netlify-own
+  label: Netlify (own)
+  partner: netlify
+  partner_name: Netlify (own)
+  category: CMS
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.netlify.com/integrations/adobeexperiencemanager/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
