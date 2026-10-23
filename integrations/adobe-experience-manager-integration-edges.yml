@@ -49,6 +49,301 @@ edges:
   detected_by: mirror-platform-listings.py
   category: CMS
   partner_tier: listing
+- partner_name: Algolia
+  app: Algolia AI Search for Adobe Experience Manager
+  apps:
+  - Algolia AI Search for Adobe Experience Manager
+  listing_count: 1
+  partner: algolia
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/105651
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://www.algolia.com/
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Platinum partner
+- partner_name: Coveo Solutions Inc.
+  app: Coveo AI for Adobe
+  apps:
+  - Coveo AI for Adobe
+  listing_count: 1
+  partner: coveo
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/106888
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: www.coveo.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+- partner_name: Epsilon
+  app: Agility Loyalty + Adobe Experience Cloud
+  apps:
+  - Agility Loyalty + Adobe Experience Cloud
+  listing_count: 1
+  partner: epsilon
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/91148
+  category: Adobe Exchange Experience Cloud listing (Analytics, Audience Manager, Campaign, Experience Manager)
+  products:
+  - Analytics
+  - Audience Manager
+  - Campaign
+  - Experience Manager
+  - Target
+  partner_url: https://www.epsilon.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Platinum partner
+- partner_name: Hootsuite Media Inc.
+  app: Adobe Experience Manager Assets for Hootsuite
+  apps:
+  - Adobe Experience Manager Assets for Hootsuite
+  listing_count: 1
+  partner: hootsuite
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/100065
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: www.hootsuite.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+- partner_name: Kaltura Inc.
+  app: Kaltura Video Connector Package for Adobe Experience Manager
+  apps:
+  - Kaltura Video Connector Package for Adobe Experience Manager
+  listing_count: 1
+  partner: kaltura
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600262
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://www.kaltura.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Silver partner
+- partner_name: SearchStax
+  app: SearchStax AI Search and Discovery for AEM
+  apps:
+  - SearchStax AI Search and Discovery for AEM
+  listing_count: 1
+  partner: searchstax
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600586
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://www.searchstax.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+- partner_name: Seismic Software
+  app: Seismic for Adobe Experience Manager Connector
+  apps:
+  - Seismic for Adobe Experience Manager Connector
+  listing_count: 1
+  partner: seismic
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/109943
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://seismic.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+  publisher_verified:
+  - Adobe Exchange verified listing
+- partner_name: Showpad NV
+  app: Showpad Adobe Experience Manager Integration
+  apps:
+  - Showpad Adobe Experience Manager Integration
+  listing_count: 1
+  partner: showpad
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600129
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: www.showpad.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Silver partner
+- partner_name: Smartling
+  app: Smartling Connector for Adobe Experience Manager
+  apps:
+  - Smartling Connector for Adobe Experience Manager
+  listing_count: 1
+  partner: smartling
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/90101
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://www.smartling.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+- partner_name: Sprinklr
+  app: Sprinklr integration for Adobe Experience Manager
+  apps:
+  - Sprinklr integration for Adobe Experience Manager
+  listing_count: 1
+  partner: sprinklr
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/107741
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://www.sprinklr.com/
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+- partner_name: Templafy
+  app: Templafy
+  apps:
+  - Templafy
+  listing_count: 1
+  partner: templafy
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600317
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://www.templafy.com/
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+- partner_name: TransPerfect
+  app: GlobalLink for Adobe Experience Manager
+  apps:
+  - GlobalLink for Adobe Experience Manager
+  - GlobalLink for Adobe Experience Manager Plus
+  listing_count: 2
+  partner: transperfect
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/90105
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: https://www.transperfect.com/
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Gold partner
+  publisher_verified:
+  - Adobe Exchange verified listing
+- partner_name: Yext
+  app: Yext for Adobe Experience Manager
+  apps:
+  - Yext for Adobe Experience Manager
+  listing_count: 1
+  partner: yext
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/101571
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  products:
+  - Experience Manager
+  partner_url: yext.com
+  signal_note: Adobe Exchange listing (publisher website from the listing JSON the public browse page loads); listing
+    count and app names are context, never counted
+  detected_by: sweep-adobe-exchange.py
+  detected: '2026-10-23'
+  partner_tier: Adobe Silver partner
 generated: '2026-10-20'
 method: searched
 source:
@@ -61,3 +356,7 @@ checked:
 - https://skillsmp.com/sitemap.xml
 - https://www.skills.sh/sitemap.xml
 - netlify/integrations/netlify-integration-edges.yml
+- https://exchange.adobe.com/apps
+- https://exchange.adobe.com/apps/browse/cc
+- https://exchange.adobe.com/apps/browse/ec
+- https://exchange.adobe.com/robots.txt

@@ -39,3 +39,172 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: adobe-experience-manager-algolia
+  label: Algolia
+  partner: algolia
+  partner_name: Algolia
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/105651
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-coveo-solutions-inc
+  label: Coveo Solutions Inc.
+  partner: coveo
+  partner_name: Coveo Solutions Inc.
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/106888
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-epsilon
+  label: Epsilon
+  partner: epsilon
+  partner_name: Epsilon
+  category: Adobe Exchange Experience Cloud listing (Analytics, Audience Manager, Campaign, Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/91148
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-hootsuite-media-inc
+  label: Hootsuite Media Inc.
+  partner: hootsuite
+  partner_name: Hootsuite Media Inc.
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/100065
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-kaltura-inc
+  label: Kaltura Inc.
+  partner: kaltura
+  partner_name: Kaltura Inc.
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600262
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-searchstax
+  label: SearchStax
+  partner: searchstax
+  partner_name: SearchStax
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600586
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-seismic-software
+  label: Seismic Software
+  partner: seismic
+  partner_name: Seismic Software
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/109943
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-showpad-nv
+  label: Showpad NV
+  partner: showpad
+  partner_name: Showpad NV
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600129
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-smartling
+  label: Smartling
+  partner: smartling
+  partner_name: Smartling
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/90101
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-sprinklr
+  label: Sprinklr
+  partner: sprinklr
+  partner_name: Sprinklr
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/107741
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-templafy
+  label: Templafy
+  partner: templafy
+  partner_name: Templafy
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600317
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-transperfect
+  label: TransPerfect
+  partner: transperfect
+  partner_name: TransPerfect
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/90105
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: adobe-experience-manager-yext
+  label: Yext
+  partner: yext
+  partner_name: Yext
+  category: Adobe Exchange Experience Cloud listing (Experience Manager)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/101571
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
