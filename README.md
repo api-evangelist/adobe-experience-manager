@@ -1,4 +1,4 @@
-# Adobe Experience Manager (adobe-experience-manager)
+# Adobe Experience Manager
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,63 +66,112 @@
 
 Adobe Experience Manager (AEM) is an enterprise content management solution for building websites, mobile apps, and forms, combining a digital asset management system, content fragment authoring, and adaptive forms in a single platform delivered as a cloud service. AEM provides REST APIs, GraphQL endpoints, and Java/JavaScript SDKs for content delivery, authoring, asset management, and infrastructure operations. Authentication for AEM as a Cloud Service uses Adobe IMS OAuth 2.0 service tokens.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/apis.yml)
+**Areas:** Content Management · Enterprise CMS · Digital Asset Management · Headless CMS · Content Fragments · Adaptive Forms
 
-## Scope
+## Adobe Experience Manager on APIs.io
 
-- **Type:** Index
+Everything profiled for Adobe Experience Manager is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adobe-experience-manager/](https://apis.io/providers/adobe-experience-manager/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Content Management
-- Enterprise CMS
-- Digital Asset Management
-- Headless CMS
-- Content Fragments
-- Adaptive Forms
+- [Adobe Experience Manager APIs](https://apis.io/apis/adobe-experience-manager/apis/) — Collection of REST and GraphQL APIs for AEM as a Cloud Service covering Content Fragment delivery and management, Sites authoring, Dynamic Media asset…
+- [Adobe Experience Manager Launches API](https://apis.io/apis/adobe-experience-manager/adobe-experience-manager-launches-api/) — AEM Launches for Content Fragments (experimental)
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-05-11
-- **Modified:** 2026-05-11
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### Adobe Experience Manager APIs
+GraphQL schemas.
 
-Collection of REST and GraphQL APIs for AEM as a Cloud Service covering Content Fragment delivery and management, Sites authoring, Dynamic Media asset delivery, Forms, and infrastructure. Authentication uses Adobe IMS OAuth service tokens.
+- [Adobe Experience Manager GraphQL API](https://apis.io/graphqls/adobe-experience-manager/adobe-experience-manager-graphql/)
 
-- **Human URL:** [https://developer.adobe.com/experience-cloud/experience-manager-apis/](https://developer.adobe.com/experience-cloud/experience-manager-apis/)
-- **Base URL:** `https://author-<tenant>.adobeaemcloud.com`
+#### Agentic access (1)
 
-#### Tags
+Which operations an agent can call, which act, and which need a human in the loop.
 
-- Content Fragments
-- Sites
-- Assets
-- Dynamic Media
-- Forms
-- GraphQL
+- [Adobe Experience Manager Agentic Access](https://apis.io/agentic-access/adobe-experience-manager/adobe-experience-manager-agentic-access/)
 
-#### Properties
+#### Collections (2)
 
-- [Documentation](https://developer.adobe.com/experience-cloud/experience-manager-apis/)
-- [Content  Fragments  Delivery](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/contentfragments/delivery/)
-- [Assets  Delivery](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/assets/delivery/)
-- [Sites  A P I](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/)
-- [Postman Collection](collections/adobe-experience-manager.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/adobe-experience-manager.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Postman and Open Collection request collections.
 
-## Common Properties
+- [Adobe Experience Manager APIs](https://apis.io/collections/adobe-experience-manager/open-adobe-experience-manager/)
+- [Adobe Experience Manager APIs Launches API](https://apis.io/collections/adobe-experience-manager/open-adobe-experience-manager-launches-api/)
 
-- [GitHub Organization](https://github.com/aemsites)
-- [LinkedIn](https://www.linkedin.com/showcase/adobe-experience-manager)
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adobe Experience Manager Authentication](https://apis.io/security/adobe-experience-manager/adobe-experience-manager-authentication/)
+- [Adobe Experience Manager Domain Security](https://apis.io/security/adobe-experience-manager/adobe-experience-manager-domain-security/)
+- [Adobe Experience Manager Vulnerability Disclosure](https://apis.io/security/adobe-experience-manager/adobe-experience-manager-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Adobe Experience Manager Scopes](https://apis.io/scopes/adobe-experience-manager/adobe-experience-manager-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 - [Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html)
 - [Pricing](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
-- [Sign Up](https://business.adobe.com/request-consultation/experience-cloud.html)
+- [GitHub](https://github.com/aemsites)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 25.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 38.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 18.4 |
+
+**Agent readiness 20.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 27.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adobe-experience-manager/](https://apis.io/providers/adobe-experience-manager/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adobe Experience Manager: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adobe-experience-manager/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
