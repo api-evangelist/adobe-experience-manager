@@ -100,6 +100,12 @@ Postman and Open Collection request collections.
 - [Adobe Experience Manager APIs](https://apis.io/collections/adobe-experience-manager/open-adobe-experience-manager/)
 - [Adobe Experience Manager APIs Launches API](https://apis.io/collections/adobe-experience-manager/open-adobe-experience-manager-launches-api/)
 
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Adobe Experience Manager API Rules](https://apis.io/rules/adobe-experience-manager/adobe-experience-manager-rules/)
+
 #### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
@@ -125,18 +131,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 25.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 28.0** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.1 |
 | Contract quality | 38.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 2.6 |
+| Contract governance | 13.6 |
+| Operational transparency | 14.3 |
 | Developer ergonomics | 21.4 |
-| Access clarity | 18.4 |
+| Access clarity | 14.9 |
 
-**Agent readiness 20.1** — agent-aware
+**Agent readiness 21.4** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -159,6 +165,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 27.5** — Horizontal (data, software, accessibility, platform)
 
